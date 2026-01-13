@@ -121,6 +121,7 @@ function main(config) {
     "DOMAIN-SUFFIX,fudenglin.top,全国直连",
     "DOMAIN-SUFFIX,zhenguanyu.com,全国直连",
     "DOMAIN-SUFFIX,macked.app,AI服务",
+    "DOMAIN-SUFFIX,agsvpt.com,AI服务",
     "DOMAIN-SUFFIX,xsus2025.xyz,全国直连",
     "DOMAIN-SUFFIX,max.codes,全国直连",
     "DOMAIN-SUFFIX,jiaoyanyun.com,全国直连",
