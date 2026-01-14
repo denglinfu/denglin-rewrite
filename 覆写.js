@@ -84,7 +84,7 @@ function main(config) {
 
 // 覆盖规则集
   config["rule-providers"] = {
-	  "Google":         { ...ruleProviderYamlt, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml",                     "path": "./Ruleset/Google.yaml" },
+	  "Google":         { ...ruleProviderYaml, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml",                     "path": "./Ruleset/Google.yaml" },
 	  "YouTube":        { ...ruleProviderYaml, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml",                    "path": "./Ruleset/YouTube.yaml" },
 	  "Telegram":       { ...ruleProviderYaml, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml",                  "path": "./Ruleset/Telegram.yaml" },
 	  "Steam":          { ...ruleProviderYaml, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Steam/Steam.yaml",                        "path": "./Ruleset/Steam.yaml" },
