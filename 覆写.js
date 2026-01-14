@@ -84,23 +84,23 @@ function main(config) {
 
 // 覆盖规则集
   config["rule-providers"] = {
-	  "Google":         { ...ruleProviderText, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml",                     "path": "./Ruleset/Google.yaml" },
-	  "YouTube":        { ...ruleProviderText, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml",                    "path": "./Ruleset/YouTube.yaml" },
-	  "Telegram":       { ...ruleProviderText, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml",                   "path": "./Ruleset/Telegram.yaml" },
-	  "Steam":          { ...ruleProviderText, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Steam/Steam.yaml",                      "path": "./Ruleset/Steam.yaml" },
-	  "OpenAI":             { ...ruleProviderText, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.yaml",                         "path": "./Ruleset/OpenAI.yaml" },
-      "Copilot":     { ...ruleProviderYaml, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Copilot/Copilot.yaml",      "path": "./Ruleset/Copilot.yaml" },
-      "Claude":     { ...ruleProviderYaml, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude/Claude.yaml",      "path": "./Ruleset/Claude.yaml" },
-	  "Spotify":        { ...ruleProviderText, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.yaml",                    "path": "./Ruleset/Spotify.yaml" },
-	  "OneDrive":       { ...ruleProviderText, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OneDrive/OneDrive.yaml",                   "path": "./Ruleset/OneDrive.yaml" },
-	  "Github":         { ...ruleProviderText, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.yaml",                     "path": "./Ruleset/Github.yaml" },
-	  "Microsoft":      { ...ruleProviderText, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml",                  "path": "./Ruleset/Microsoft.yaml" },
-	  "Lan":            { ...ruleProviderText, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml",                        "path": "./Ruleset/Lan.yaml" },
-      "ProxyGFW":    { ...ruleProviderText, "url": "https://github.com/Moli-X/Tool/raw/X/Clash/Rules/ProxyGFW.list", "path": "./Ruleset/ProxyGFW.list" },
-	  "China":          { ...ruleProviderText, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/China/China.yaml",                "path": "./Ruleset/China.yaml" },
-      "iCloudChina": { ...ruleProviderYaml, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/iCloud/iCloud.yaml",       "path": "./Ruleset/iCloud.yaml" },
-      "Apple":     { ...ruleProviderYaml, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.yaml",      "path": "./Ruleset/Apple.yaml" },
-      "115":         { ...ruleProviderYaml, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/115/115.yaml",          "path": "./Ruleset/115.yaml" }
+	  "Google":         { ...ruleProviderYamlt, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml",                     "path": "./Ruleset/Google.yaml" },
+	  "YouTube":        { ...ruleProviderYaml, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml",                    "path": "./Ruleset/YouTube.yaml" },
+	  "Telegram":       { ...ruleProviderYaml, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml",                  "path": "./Ruleset/Telegram.yaml" },
+	  "Steam":          { ...ruleProviderYaml, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Steam/Steam.yaml",                        "path": "./Ruleset/Steam.yaml" },
+	  "OpenAI":         { ...ruleProviderYaml, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.yaml",                      "path": "./Ruleset/OpenAI.yaml" },
+    "Copilot":        { ...ruleProviderYaml, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Copilot/Copilot.yaml",                    "path": "./Ruleset/Copilot.yaml" },
+    "Claude":         { ...ruleProviderYaml, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude/Claude.yaml",                      "path": "./Ruleset/Claude.yaml" },
+	  "Spotify":        { ...ruleProviderYaml, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.yaml",                    "path": "./Ruleset/Spotify.yaml" },
+	  "OneDrive":       { ...ruleProviderYaml, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OneDrive/OneDrive.yaml",                  "path": "./Ruleset/OneDrive.yaml" },
+	  "Github":         { ...ruleProviderYaml, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.yaml",                      "path": "./Ruleset/Github.yaml" },
+	  "Microsoft":      { ...ruleProviderYaml, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml",                "path": "./Ruleset/Microsoft.yaml" },
+	  "Lan":            { ...ruleProviderYaml, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml",                            "path": "./Ruleset/Lan.yaml" },
+    "ProxyGFW":       { ...ruleProviderText, "url": "https://github.com/Moli-X/Tool/raw/X/Clash/Rules/ProxyGFW.list",                                                           "path": "./Ruleset/ProxyGFW.list" },
+	  "China":          { ...ruleProviderYaml, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/China/China.yaml",                        "path": "./Ruleset/China.yaml" },
+    "iCloudChina":    { ...ruleProviderYaml, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/iCloud/iCloud.yaml",                      "path": "./Ruleset/iCloud.yaml" },
+    "Apple":          { ...ruleProviderYaml, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.yaml",                        "path": "./Ruleset/Apple.yaml" },
+    "115":            { ...ruleProviderYaml, "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/115/115.yaml",                            "path": "./Ruleset/115.yaml" }
   };
 
 // 覆盖规则
