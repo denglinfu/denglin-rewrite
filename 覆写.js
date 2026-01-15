@@ -133,6 +133,7 @@ function main(config) {
     "DOMAIN-KEYWORD,kelee.one,AI服务",
     "DOMAIN-KEYWORD,themoviedb,全国直连",
     "DOMAIN-KEYWORD,115cdn.com,全国直连",
+    "DOMAIN-KEYWORD,fnos,全国直连",
     "PROCESS-NAME,mail,谷歌服务",
     //pt站点
     "DOMAIN-SUFFIX,piggo.me,全国直连",
