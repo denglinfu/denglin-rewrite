@@ -107,7 +107,6 @@ function main(config) {
   config["rules"] = [
     //软件分流
     "PROCESS-NAME,Qzhddr.exe,广告拦截",
-    "PROCESS-NAME,telegram,电报消息",
     "PROCESS-NAME,QzhddrUpdate.exe,广告拦截",
     "PROCESS-NAME,QzhddrSrv.exe,广告拦截",
     "PROCESS-NAME,QzhddrAgent.exe,广告拦截",
