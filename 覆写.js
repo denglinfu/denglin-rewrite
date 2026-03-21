@@ -133,6 +133,7 @@ function main(config) {
         "狮城节点",
         "日本节点",
         "台湾节点",
+        "自建节点",
       ],
     },
     {
@@ -146,6 +147,7 @@ function main(config) {
         "狮城节点",
         "日本节点",
         "台湾节点",
+        "自建节点",
         "DIRECT",
       ],
     },
@@ -203,7 +205,7 @@ function main(config) {
     {
       ...groupBaseArea,
       name: "自建节点",
-      icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Personal.png",
+      icon: "https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Airport.png",
       filter: "(?i)自建|自用|个人|(\b(Self|Personal|Own)\b)",
     },
     {
