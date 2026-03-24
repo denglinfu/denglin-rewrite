@@ -373,6 +373,7 @@ function main(config) {
     "DOMAIN-SUFFIX,hdhive.com,AI服务",
     "DOMAIN-SUFFIX,themoviedb.org,AI服务",
     "DOMAIN-KEYWORD,kelee.one,AI服务",
+    "DOMAIN-KEYWORD,zxxk.com,全国直连",
     "DOMAIN-KEYWORD,themoviedb,全国直连",
     "DOMAIN-KEYWORD,115cdn.com,全国直连",
     "DOMAIN-KEYWORD,fnos,全国直连",
