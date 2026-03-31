@@ -70,7 +70,8 @@ function main(config) {
       "+.local",
       "+.direct",
       "+.msftconnecttest.com",
-      "+.msftncsi.com",
+      "fudenglin.top",      // 新增：过滤主域名
+      "*.fudenglin.top"     // 新增：过滤所有子域名
     ],
     "default-nameserver": ["system"],
     nameserver: ["223.5.5.5", "119.29.29.29", "180.184.1.1"],
